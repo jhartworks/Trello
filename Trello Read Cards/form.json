@@ -1,0 +1,23 @@
+{
+    "elements":
+    [        
+        { "type": "Label", "caption": "Trello Properties" },
+        { "type": "ValidationTextBox", "name": "TrelloBoardId", "caption": "Trello Board-ID" },
+        { "type": "ValidationTextBox", "name": "TrelloApiKey", "caption": "Trello API-Key" },
+        { "type": "ValidationTextBox", "name": "TrelloApiToken", "caption": "Trello API-Token" },
+        { "type": "NumberSpinner", "name": "Updateintervall", "caption": "Minutes" },
+        { "type": "Label", "caption": "HTML-Box Properties" },
+        { "type": "ValidationTextBox", "name": "BgColor", "caption": "Backgoundcolor as HEX or HTML-Color" },
+        { "type": "ValidationTextBox", "name": "FontColor", "caption": "Fontcolor as HEX or HTML-Color" },
+        { "type": "ValidationTextBox", "name": "FontSize", "caption": "Fontsize as px or rem" },
+        { "type": "ValidationTextBox", "name": "HoverColor", "caption": "Hovercolor as HEX or HTML-Color" }
+    ],
+    "actions":
+    [
+        { "type": "Button", "label": "Update", "onClick": "TRC_Update($id);" }
+    ],
+    "status":
+    [
+
+    ]
+}

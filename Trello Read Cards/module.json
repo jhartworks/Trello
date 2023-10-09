@@ -1,0 +1,14 @@
+{
+    "id": "{907267F9-9AEA-9AA3-E88D-F38E450341AD}",
+    "name": "Trello Read Cards",
+    "type": 3,
+    "vendor": "Trello",
+    "aliases":
+    [
+    ],
+    "url": "https://jh-artworks.com",
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "TRC"
+}
